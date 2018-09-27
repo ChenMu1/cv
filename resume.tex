@@ -1,0 +1,48 @@
+%----------------------------------------------------------------
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% LaTeX Template for Cover Letter
+%
+% Authors:
+% Chen Mu <muchenmagus@hotmail.com>
+%
+% This template is inspired by:
+% https://github.com/posquit0/Awesome-CV
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%----------------------------------------------------------------
+
+%----------------------------------------------------------------
+% Config
+%----------------------------------------------------------------
+\documentclass[11pt, a4paper]{awesome-cv}
+\geometry{top=0.8cm,bottom=1.8cm,left=1.4cm,right=1.4cm,footskip=0.5cm}
+\fontdir[fonts/]
+\usepackage{hyperref}
+
+%----------------------------------------------------------------
+% Personal info
+%----------------------------------------------------------------
+\name{Chen}{Mu}
+\position{Computer Science and Mathematics{\enskip\cdotp\enskip}Web Developer {\enskip\cdotp\enskip}Expected jobs ---Software Engineer,  Data Analyst}
+\mobile{(+86) 17660696806} 
+\email{muchenmagus@hotmail.com}
+\github{ChenMu1}
+\linkedin{chenmu1}
+\wechat{PatrickStar002}
+\address{QingDao, ShanDong, P.R.China}
+\quote{Working on Code and Data is so much more than a job, it is my passion in the future, and keeps me staying motivated.}
+
+%----------------------------------------------------------------
+\begin{document}
+\makecvheader % Print the header with above personal informations
+%\makecvfooter{}{Resume}{\today}% Print the footer with 3 arguments(<left>, <center>, <right>)
+
+\input{resume/summary.tex}
+\input{resume/employment.tex}
+\input{resume/education.tex}
+\input{resume/about.tex}
+\end{document}
+
+%----------------------------------------------------------------
